@@ -15,3 +15,4 @@ repos:
     # Common errors
     -   id: check-case-conflict
     -   id: check-executables-have-shebangs
+    -   id: check-yaml
