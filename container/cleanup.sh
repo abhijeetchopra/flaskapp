@@ -10,4 +10,3 @@ docker rm $(docker container ls --all | grep flask_webapp | grep $VERSION | awk 
 
 # remove image
 docker rmi $(docker image ls | grep flask_webapp | grep $VERSION | awk '{print $3}')
-
