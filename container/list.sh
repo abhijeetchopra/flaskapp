@@ -10,9 +10,8 @@ echo "  $ docker container ls --all" && echo ""
 docker container ls --all
 
 echo "----------------------------------------"
-echo "  $ docker image ls" && echo "" 
+echo "  $ docker image ls" && echo ""
 docker image ls
 
 echo "----------------------------------------"
 echo ""
-
